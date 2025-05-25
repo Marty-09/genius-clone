@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background: #f9f9f9;
+  }
+  
+  a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+  
+  .annotated {
+    background: #ffff99;
+    cursor: pointer;
+    border-bottom: 1px dashed #aaa;
+  }
+  
+  .note-box {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #fff8dc;
+    max-width: 400px;
+  }
+  
+  .hidden {
+    display: none;
+  }  
