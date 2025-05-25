@@ -1,16 +1,20 @@
-<!-- index.html -->
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Genius Clone</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Benvenuto su Genius Clone</h1>
-  <ul>
-    <li><a href="songs/song1.html">Nome Canzone 1</a></li>
-    <li><a href="songs/song2.html">Nome Canzone 2</a></li>
-  </ul>
+  <header>
+    <h1>Genius Clone</h1>
+    <nav><a href="add.html">Add a Song</a></nav>
+  </header>
+  <main>
+    <div id="songs-list">
+      <!-- I brani compariranno qui -->
+    </div>
+  </main>
+  <script src="scripts/loadSongs.js"></script>
 </body>
 </html>
